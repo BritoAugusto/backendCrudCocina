@@ -1,0 +1,20 @@
+{
+  "name": "backendcrudcocina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoDB",
+    "ExpressJS",
+    "Mongoose"
+  ],
+  "author": "Brito Augusto",
+  "license": "ISC",
+  "description": "operaciones de CRUD para el proyecto crud recetas",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
