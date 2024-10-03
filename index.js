@@ -3,7 +3,7 @@ import cors from 'cors';
 import morgan from "morgan";
 import path, { dirname } from 'path'
 import { fileURLToPath } from "url";
-import exp from "constants";
+import './src/database/databaseConnection.js'
 
 const  app = express();
 app.set('port', process.env.PORT || 4000)
