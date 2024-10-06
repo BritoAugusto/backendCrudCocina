@@ -1,8 +1,5 @@
 import Receta from "../database/model/receta.js";
 
-export const leerPrueba = (req, res) => {
-  res.send("Desde leer prueba");
-};
 
 export const crearReceta = async (req, res) => {
   try {
